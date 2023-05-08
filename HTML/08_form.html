@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        1. <input type="text"> 태그
+    -->
+    <p>
+        <!--디폴트로 type="text가 적용됨"-->
+        <input>
+        <br>
+
+        <!--size속성 : 입력 상자의 크기
+                         들어가는 숫자개수에 제한은 없는데 상자의 크기가 지정됨-->
+        <input size="5">
+        <br>
+
+        <!--maxlength 속성 : 입력 가능한 최대 글자수(숫자, 글자 상관없이 제한
+                            5개가 들어갈 수 있는 박스인데 4글자로 제한)-->
+        <input type="text" size="5" maxlength="4">
+
+        <br>
+        <!--placeholder 속성 : 입력메세지
+                            설명을 달아주는거라 입력하면 사라짐-->
+        <input type="text" placeholder="아이디">
+        <br>
+
+        <!--required 속성 : 필수 입력값
+                            버튼을 만들때 필수입력값이 비어있으면 입력하라는 메세지가 뜸-->
+        <input type="text" placeholder="전화번호" required>
+        <input type="text" placeholder="생년월일">
+        <br>
+
+        <!--value 속성 : 입력한 값이 저장되는 속성
+                        입력된 값이 기본값(날씨)에 저장됨-->
+        <input type="text" value="날씨">
+        <br>
+
+        <!--readonly속성 : 입력된 값을 수정할 수 없게 만듦-->
+        <input type="text" value="구디아카데미" readonly>
+        <br>
+
+        <!--disabled 속성 : 입력상자를 사용할 수 없도록 만듦-->
+        <input type="text" disabled>
+    </p>
+</body>
+</html>
